@@ -1,0 +1,53 @@
+.tpl_list_item{
+
+}
+.tpl_header{
+   display: flex; 
+   margin-bottom: 10rpx;
+}
+.tpl_user_avatar,.tpl_user_nickname,.tpl_timer,.tpl_title,.tpl_desc{
+  display: block;
+}
+.tpl_user_avatar{
+  width: 80rpx;
+  height: 80rpx;
+  overflow: hidden;
+  border-radius: 40rpx;
+  background: rgba(0, 0, 0, 0.02);
+  margin: 0 10rpx 0 0;
+}
+.tpl_user_nickname{
+  line-height: 80rpx;
+  margin-right: 10rpx;
+  font-size: 14px;
+}
+.tpl_timer{
+  line-height: 80rpx;
+  margin-right: 10rpx;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.2)
+}
+.tpl_title{
+  line-height: 80rpx;
+}
+.tpl_desc{
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 40rpx;
+}
+.tpl_aside{
+  display: flex;
+}
+.tpl_label,.tpl_like_number,.tpl_comment_number{
+  margin-right: 20rpx;
+  line-height: 60rpx;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tpl_label{
+  padding: 0 20rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  border:2rpx solid red;
+  box-sizing: border-box;
+}

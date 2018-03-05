@@ -1,0 +1,54 @@
+/**index.wxss**/
+.vw_sroll_view{
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+.vw_nav_bar{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  border-top: 1rpx solid rgba(0,0,0,0.02);
+  background: rgba(0, 0, 0, 0.01)
+}
+.vw_nav_btn{
+  flex: 1;
+  text-align: center;
+  padding: 15rpx 0px;
+}
+.vw_nav_btn image{
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin: 0 auto;
+  background: red;
+}
+.vw_nav_btn text{
+  display: block;
+}
+.vw_list{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.vw_banner{
+  padding-top: 38%;
+  position: relative;
+}
+.vw_banner_box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
