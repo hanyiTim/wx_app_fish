@@ -56,6 +56,5 @@ Page({
   },
   onPullDownRefresh:function(){
     console.log(1132);
-    wx.stopPullDownRefresh()
   }
 })

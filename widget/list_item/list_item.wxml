@@ -1,17 +1,17 @@
 <template name="list_item">
-  <view class='tpl_list_item'>
-    <view class='tpl_header'>
-      <image class='tpl_user_avatar'></image>
-      <text class='tpl_user_nickname'>我哈哈哈</text>
-      <text class='tpl_timer'>5小时前</text>
+  <view class='cc_list_item'>
+    <view wx-if="{{!noHeader}}" class='cc_header'>
+      <image class='cc_user_avatar'></image>
+      <text class='cc_user_nickname'>我哈哈哈</text>
+      <text class='cc_timer'>5小时前</text>
     </view>
-    <view class='tpl_contain'>
-      <text class='tpl_title'>我是卡片的标题</text>
-      <text class='tpl_desc'>我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript</text>
-      <view class='tpl_aside'>
-        <text class='tpl_label'>php开发</text>
-        <text class='tpl_like_number'>100喜欢</text>
-        <text class='tpl_comment_number'>100评论</text>
+    <view class='cc_contain'>
+      <text class='cc_title'>我是卡片的标题</text>
+      <text class='cc_desc'>我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript</text>
+      <view class='cc_aside'>
+        <text class='cc_label'>php开发</text>
+        <text class='cc_like_number'>100喜欢</text>
+        <text class='cc_comment_number'>100评论</text>
       </view>
     </view>
   </view>

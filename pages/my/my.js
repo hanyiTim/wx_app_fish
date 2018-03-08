@@ -13,5 +13,12 @@ Page({
     })
   },
   onLoad: function () {
+    wx.setNavigationBarTitle({
+      title: '我的',
+    })
+  },
+  onPullDownRefresh: function () {
+    console.log(1132);
+    wx.stopPullDownRefresh()
   }
 })

@@ -13,5 +13,8 @@ Page({
     })
   },
   onLoad: function () {
+    wx.setNavigationBarTitle({
+      title: '分类',
+    })
   }
 })

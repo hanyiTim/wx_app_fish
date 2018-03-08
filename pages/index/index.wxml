@@ -1,8 +1,6 @@
 <!--index.wxml-->
-<import src="../../widget/nav/nav.wxml" />
 <import src="../../widget/list_item/list_item.wxml" />
 <view class="vw_section">
-  <scroll-view class='vw_sroll_view' scroll-y>
     <view class='vw_banner'>
       <swiper class='vw_banner_box'autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
         <block wx:for="{{imageUrls}}">
@@ -17,5 +15,4 @@
         <template is="list_item"></template>
       </block>
     </view>
-  </scroll-view>
 </view>

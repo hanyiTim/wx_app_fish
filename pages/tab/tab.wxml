@@ -1,0 +1,19 @@
+<!--tab.wxml-->
+<import src="../../widget/list_item/list_item.wxml" />
+<view class="vw_section">
+  <view class='vw_swiper_tab'>
+    <view class="{{currentTab == 0 ? 'active' : ''}}" data-current="0" bindtap="handleClickTab">我的收藏</view>
+    <view class="{{currentTab == 1 ? 'active' : ''}}" data-current="1" bindtap="handleClickTab">浏览历史</view>
+    <view class="{{currentTab == 2 ? 'active' : ''}}" data-current="2" bindtap="handleClickTab">喜欢的文章</view>
+  </view>
+  <view class='vw_taday_readed'>今天阅读了<text>20</text>篇文章</view>
+  <swiper current="{{currentTab}}" duration="300" class='vw_swiper_box' bindchange="handleSwiperChange">
+    <swiper-item>
+      <block wx:for="{{list}}">
+        <template is="list_item" data="{{noHeader:true}}"></template>
+      </block>
+    </swiper-item>
+    <swiper-item>浏览荔枝</swiper-item>
+    <swiper-item>喜欢的文章</swiper-item>
+  </swiper>
+</view>

@@ -1,14 +1,14 @@
-.tpl_list_item{
+.cc_list_item{
 
 }
-.tpl_header{
+.cc_header{
    display: flex; 
    margin-bottom: 10rpx;
 }
-.tpl_user_avatar,.tpl_user_nickname,.tpl_timer,.tpl_title,.tpl_desc{
+.cc_user_avatar,.cc_user_nickname,.cc_timer,.cc_title,.cc_desc{
   display: block;
 }
-.tpl_user_avatar{
+.cc_user_avatar{
   width: 80rpx;
   height: 80rpx;
   overflow: hidden;
@@ -16,35 +16,35 @@
   background: rgba(0, 0, 0, 0.02);
   margin: 0 10rpx 0 0;
 }
-.tpl_user_nickname{
+.cc_user_nickname{
   line-height: 80rpx;
   margin-right: 10rpx;
   font-size: 14px;
 }
-.tpl_timer{
+.cc_timer{
   line-height: 80rpx;
   margin-right: 10rpx;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.2)
 }
-.tpl_title{
+.cc_title{
   line-height: 80rpx;
 }
-.tpl_desc{
+.cc_desc{
   font-size: 13px;
   color: rgba(0, 0, 0, 0.2);
   margin-bottom: 40rpx;
 }
-.tpl_aside{
+.cc_aside{
   display: flex;
 }
-.tpl_label,.tpl_like_number,.tpl_comment_number{
+.cc_label,.cc_like_number,.cc_comment_number{
   margin-right: 20rpx;
   line-height: 60rpx;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
-.tpl_label{
+.cc_label{
   padding: 0 20rpx;
   border-radius: 8rpx;
   overflow: hidden;

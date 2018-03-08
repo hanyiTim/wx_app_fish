@@ -1,17 +1,18 @@
 {
   "pages":[
+    "pages/my/my",
     "pages/index/index",
     "pages/find/find",
     "pages/type/type",
-    "pages/my/my",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/tab/tab"    
   ],
   "window":{
-    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "怪鱼",
     "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh":true,
+    "backgroundTextStyle": "dark"
   },
   "tabBar": {
     "color": "#a9b7b7",
