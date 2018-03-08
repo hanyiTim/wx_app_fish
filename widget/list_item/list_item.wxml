@@ -6,9 +6,10 @@
       <text class='cc_timer'>5小时前</text>
     </view>
     <view class='cc_contain'>
+      <navigator class='cc_link' url='/pages/defail/defail'></navigator>
       <text class='cc_title'>我是卡片的标题</text>
       <text class='cc_desc'>我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript我是卡片的descript</text>
-      <view class='cc_aside'>
+      <view class='cc_aside cc_aside_a' wx-if="{{styleA}}">
         <text class='cc_label'>php开发</text>
         <text class='cc_like_number'>100喜欢</text>
         <text class='cc_comment_number'>100评论</text>

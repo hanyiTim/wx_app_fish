@@ -4,8 +4,9 @@
     "pages/index/index",
     "pages/find/find",
     "pages/type/type",
-    "pages/logs/logs",
-    "pages/tab/tab"    
+    "pages/tab/tab",
+    "pages/defail/defail",
+    "pages/logs/logs"    
   ],
   "window":{
     "navigationBarBackgroundColor": "#fff",

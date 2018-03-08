@@ -3,6 +3,8 @@
 }
 .vw_swiper_tab{
   display: flex;
+  position: relative;
+  z-index: 2;
 }
 .vw_swiper_tab .active{
   color: rgba(255, 0, 0, 0.8);
@@ -36,4 +38,5 @@
 .vw_swiper_box swiper-item{
   padding:15px;
   box-sizing: border-box;
+   overflow-y: scroll; 
 }
